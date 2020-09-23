@@ -12,10 +12,10 @@
 
 """
 =========================
-Qasm (:mod:`qiskit.qasm`)
+Qasm (:mod:`qiskit.openqasm2`)
 =========================
 
-.. currentmodule:: qiskit.qasm
+.. currentmodule:: qiskit.openqasm2
 
 QASM Routines
 =============
