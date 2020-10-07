@@ -42,6 +42,7 @@ Pygments
 from numpy import pi
 
 from .qasm import Qasm
+from .functions import load, export
 from .exceptions import QasmError
 try:
     import pygments
