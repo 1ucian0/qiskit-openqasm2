@@ -22,9 +22,9 @@ to Qasm2 source loading and exporting in functions.py
 # from os import linesep
 # from typing import List
 from qiskit import QuantumCircuit  # , QiskitError
-from qiskit_openqasm2 import Qasm
 from qiskit.converters import ast_to_dag
 from qiskit.converters import dag_to_circuit
+from qiskit_openqasm2 import Qasm
 
 
 def qasm_load(qasm: Qasm) -> QuantumCircuit:

@@ -18,8 +18,9 @@ import os
 import tempfile
 import unittest
 
-from qiskit_openqasm2 import load, export
-from qiskit.test import QiskitTestCase, Path
+from qiskit.test import QiskitTestCase
+from qiskit_openqasm2.functions import load, export
+from qiskit_openqasm2.test import Path
 
 
 class TestQasm2(QiskitTestCase):
