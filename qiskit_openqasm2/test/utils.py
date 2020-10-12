@@ -20,14 +20,14 @@ import unittest
 from enum import Enum
 from itertools import product
 
-from qiskit import __path__ as qiskit_path
+from qiskit_openqasm2 import __path__ as qiskit_openqasm2_path
 
 
 class Path(Enum):
     """Helper with paths commonly used during the tests."""
 
     # Main SDK path:    qiskit/
-    SDK = qiskit_path[0]
+    SDK = qiskit_openqasm2_path[0]
     # test.python path: qiskit/test/python/
     TEST = os.path.normpath(os.path.join(SDK, '..', 'test', 'python'))
     # Examples path:    examples/
