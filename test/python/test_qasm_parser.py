@@ -17,7 +17,8 @@ import ply
 
 from qiskit.qasm import Qasm, QasmError
 from qiskit.qasm.node.node import Node
-from qiskit.test import QiskitTestCase, Path
+from qiskit.test import QiskitTestCase
+from qiskit_openqasm2.test import Path
 
 
 def parse(file_path):
