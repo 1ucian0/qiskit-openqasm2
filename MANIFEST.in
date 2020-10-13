@@ -1,0 +1,7 @@
+include LICENSE.txt
+include qiskit_openqasm2/libs/*.inc
+
+# Include the tests files.
+recursive-include test *.py
+include test/python/qasm/*.qasm
+include test/python/qasm2/*.qasm
